@@ -30,7 +30,6 @@ end
 
 
 savings_account = SavingsAccount.new(1000)
-
 puts "Savings balance before interest: #{savings_account.balance}"
 savings_account.calculate_interest
 puts "Savings balance after interest: #{savings_account.balance}"
