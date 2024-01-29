@@ -16,9 +16,24 @@ VALUES
     (5,'Zack','', 'Matthews', 22, 'Marikina'),
     (6,'Finn','', 'Lam', 25, 'Manila');
     
-UPDATE students SET first_name = 'Ivan', middle_name = 'Ingram' ,last_name = 'Howard', age = 25, location = 'Bulacan' WHERE id = 1;
+UPDATE students SET 
+    first_name = 'Ivan', 
+    middle_name = 'Ingram',
+    last_name = 'Howard',
+    age = 25, 
+    location = 'Bulacan'
+WHERE id = 1;
 
 DELETE FROM students where id = 6;
+
+SELECT COUNT(*)
+FROM students;
+
+SELECT first_name FROM students WHERE location = 'Manila';
+
+SELECT AVG(age) FROM students;
+
+SELECT * from students ORDER BY age DESC;
 
 
 
