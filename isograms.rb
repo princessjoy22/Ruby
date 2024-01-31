@@ -12,4 +12,4 @@ end
 puts is_isogram("Dermatoglyphics");
 puts is_isogram("aba");
 puts is_isogram("moOse");
-
+puts is_isogram("ISOGRAM");
