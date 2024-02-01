@@ -5,7 +5,6 @@ class SavingsAccount
     @balance = balance
   end
 
-  public
 
   def calculate_interest
     puts "Calculating interest..."

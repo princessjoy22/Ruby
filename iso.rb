@@ -4,9 +4,10 @@
 
 def is_isogram(word)
     letters = Set.new
-# comparison of string and regular expression
+    current_letter = nil
+
     word.downcase.each_char do |letter|
-        if letter =~ /[a-z]/   
+        if current_letter = letter
             return false if letters.include?(letter)
         end
         letters.add(letter)

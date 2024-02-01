@@ -20,9 +20,9 @@ class Book < Author
     end
 end
 
-author = Book.new("J.K Rowling", 58, "Fantastic Beasts")
-author.describe
-author.title
+book = Book.new("J.K Rowling", 58, "Fantastic Beasts")
+book.describe
+book.title
 
 author = Author.new("J.K Rowling", 58, "Fantastic Beasts")
 author.describe
