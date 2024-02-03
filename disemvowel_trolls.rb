@@ -1,4 +1,5 @@
-# Write a method that takes a string and return a new string with all vowels removed.
+# Write a method that takes a string and 
+# return a new string with all vowels removed.
 
 def disemvowel_trolls(comment)
     return_message = []
